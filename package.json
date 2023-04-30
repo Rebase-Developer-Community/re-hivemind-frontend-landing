@@ -9,7 +9,7 @@
     "lint": "next lint",
     "prettier": "prettier --write .",
     "prepare": "husky install",
-    "pre-commit": "npm run lint"
+    "pre-commit": "npm run lint -- --fix"
   },
   "dependencies": {
     "next": "13.3.1",

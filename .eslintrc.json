@@ -1,7 +1,0 @@
-{
-  "extends": ["next", "next/core-web-vitals", "eslint:recommended"],
-  "rules": {
-    "no-unused-vars": 2,
-    "indent": ["error", 2]
-  }
-}

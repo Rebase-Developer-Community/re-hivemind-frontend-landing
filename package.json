@@ -36,7 +36,7 @@
     "*.tsx": [
 			"eslint --fix"
 		],
-		"*.{html,js}": [
+		"*.{html,tsx}": [
 			"prettier --write"
 		]
   }

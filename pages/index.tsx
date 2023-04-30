@@ -6,7 +6,6 @@ import styles from '@/styles/Home.module.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const test = 'Changes for checking updates';
 
 export default function Home() {
   return (

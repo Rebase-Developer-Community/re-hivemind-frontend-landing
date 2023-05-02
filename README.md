@@ -1,5 +1,12 @@
 # The Full Stack source code for the rebase community app
 
+Rebase community members hive
+
+# The Front-End api source for the rebase community app
+
+This is the Initial setting for the project.
+
+
 This is the Initial setting for the project.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).

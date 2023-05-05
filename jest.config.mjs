@@ -11,6 +11,16 @@ const config = {
   preset: 'ts-jest',
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   testEnvironment: 'jest-environment-jsdom',
+  collectCoverageFrom: [
+    '**/*.{ts,tsx}',
+    '!**/*.d.ts',
+    '!**/node_modules/**',
+    '!**/coverage/**',
+    '!**/jest.config.js',
+    '!**/jest.setup.js',
+    '!**/pages/_app.tsx',
+    '!**/pages/_document.tsx',
+  ]
 };
 
 export default createJestConfig(config);

@@ -8,5 +8,9 @@ jobs:
   coverage:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '19'
       - uses: actions/checkout@v3
+      - run: npm i
       - uses: ArtiomTr/jest-coverage-report-action@v2

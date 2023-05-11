@@ -3,11 +3,11 @@ import { render, screen } from '@testing-library/react';
 import Home from '../pages/index';
 
 describe('Home', () => {
-  it('renders a heading', () => {
+  it('renders the greeting', () => {
     render(<Home />);
 
-    const heading = screen.getByText('Get started by editing');
+    const greeting = screen.getByText('Hello World!');
 
-    expect(heading).toBeInTheDocument();
+    expect(greeting).toBeInTheDocument();
   });
 });
